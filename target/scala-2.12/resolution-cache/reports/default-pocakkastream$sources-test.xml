@@ -7,10 +7,10 @@
 		revision="0.1-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20171020103643"/>
+		date="20171024093308"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-http-testkit_2.12">
-			<revision name="10.0.10" status="release" pubdate="20170831164008" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="41">
+			<revision name="10.0.10" status="release" pubdate="20170831164008" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="45">
 				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
 				<metadata-artifact status="no" details="" size="3484" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe.akka\akka-http-testkit_2.12\ivy-10.0.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.12/10.0.10/akka-http-testkit_2.12-10.0.10.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="10.0.10" rev-constraint-default="10.0.10" rev-constraint-dynamic="10.0.10" callerrev="0.1-SNAPSHOT"/>
@@ -21,8 +21,20 @@
 				</artifacts>
 			</revision>
 		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream-kafka_2.12">
+			<revision name="0.17" status="release" pubdate="20170823194140" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/akka/reactive-kafka" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">
+				<license name="Apache License 2.0" url="http://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="4778" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe.akka\akka-stream-kafka_2.12\ivy-0.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-kafka_2.12/0.17/akka-stream-kafka_2.12-0.17.pom"/>
+				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="0.17" rev-constraint-default="0.17" rev-constraint-dynamic="0.17" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="akka-stream-kafka_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="28818" time="581" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe.akka\akka-stream-kafka_2.12\srcs\akka-stream-kafka_2.12-0.17-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-kafka_2.12/0.17/akka-stream-kafka_2.12-0.17-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.typesafe.akka" name="akka-distributed-data_2.12">
-			<revision name="2.5.6" status="release" pubdate="20170929164251" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+			<revision name="2.5.6" status="release" pubdate="20170929164251" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="25">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3390" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe.akka\akka-distributed-data_2.12\ivy-2.5.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-distributed-data_2.12/2.5.6/akka-distributed-data_2.12-2.5.6.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="2.5.6" rev-constraint-default="2.5.6" rev-constraint-dynamic="2.5.6" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6"/>
@@ -34,7 +46,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-cluster_2.12">
-			<revision name="2.5.6" status="release" pubdate="20170929164203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+			<revision name="2.5.6" status="release" pubdate="20170929164203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3489" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe.akka\akka-cluster_2.12\ivy-2.5.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.12/2.5.6/akka-cluster_2.12-2.5.6.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="2.5.6" rev-constraint-default="2.5.6" rev-constraint-dynamic="2.5.6" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6"/>
@@ -46,7 +58,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.camel" name="camel-rabbitmq">
-			<revision name="2.17.7" status="release" pubdate="20170514102946" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+			<revision name="2.17.7" status="release" pubdate="20170514102946" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="120008" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.apache.camel\camel-rabbitmq\ivy-2.17.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/camel/camel-rabbitmq/2.17.7/camel-rabbitmq-2.17.7.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="2.17.7" rev-constraint-default="2.17.7" rev-constraint-dynamic="2.17.7" callerrev="0.1-SNAPSHOT"/>
@@ -58,7 +70,7 @@
 			</revision>
 		</module>
 		<module organisation="com.rabbitmq" name="amqp-client">
-			<revision name="3.6.1" status="release" pubdate="20160301154004" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.rabbitmq.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+			<revision name="3.6.1" status="release" pubdate="20160301154004" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.rabbitmq.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
 				<license name="ASL 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<license name="GPL v2" url="http://www.gnu.org/licenses/gpl-2.0.txt"/>
 				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.txt"/>
@@ -72,7 +84,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-http_2.12">
-			<revision name="10.0.10" status="release" pubdate="20170831164017" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="11">
+			<revision name="10.0.10" status="release" pubdate="20170831164017" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="12">
 				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
 				<metadata-artifact status="no" details="" size="2827" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe.akka\akka-http_2.12\ivy-10.0.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.0.10/akka-http_2.12-10.0.10.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="10.0.10" rev-constraint-default="10.0.10" rev-constraint-dynamic="10.0.10" callerrev="0.1-SNAPSHOT"/>
@@ -84,7 +96,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-http-core_2.12">
-			<revision name="10.0.10" status="release" pubdate="20170831163939" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+			<revision name="10.0.10" status="release" pubdate="20170831163939" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
 				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
 				<metadata-artifact status="no" details="" size="3610" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe.akka\akka-http-core_2.12\ivy-10.0.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.0.10/akka-http-core_2.12-10.0.10.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="10.0.10" rev-constraint-default="10.0.10" rev-constraint-dynamic="10.0.10" callerrev="0.1-SNAPSHOT"/>
@@ -96,13 +108,49 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-parsing_2.12">
-			<revision name="10.0.10" status="release" pubdate="20170831163827" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+			<revision name="10.0.10" status="release" pubdate="20170831163827" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
 				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
 				<metadata-artifact status="no" details="" size="2983" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe.akka\akka-parsing_2.12\ivy-10.0.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.0.10/akka-parsing_2.12-10.0.10.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="10.0.10" rev-constraint-default="10.0.10" rev-constraint-dynamic="10.0.10" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="akka-parsing_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63824" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe.akka\akka-parsing_2.12\srcs\akka-parsing_2.12-10.0.10-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.0.10/akka-parsing_2.12-10.0.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kafka" name="kafka-clients">
+			<revision name="0.11.0.0" status="release" pubdate="20170623002350" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://kafka.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3692" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.apache.kafka\kafka-clients\ivy-0.11.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/0.11.0.0/kafka-clients-0.11.0.0.pom"/>
+				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="0.11.0.0" rev-constraint-default="0.11.0.0" rev-constraint-dynamic="0.11.0.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="kafka-clients" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="938519" time="900" location="C:\Users\ADELPOZO\.ivy2\cache\org.apache.kafka\kafka-clients\srcs\kafka-clients-0.11.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/0.11.0.0/kafka-clients-0.11.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.1.2.6" status="release" pubdate="20160602194933" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3489" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.xerial.snappy\snappy-java\ivy-1.1.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6.pom"/>
+				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="1.1.2.6" rev-constraint-default="1.1.2.6" rev-constraint-dynamic="1.1.2.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="snappy-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1049625" time="1063" location="C:\Users\ADELPOZO\.ivy2\cache\org.xerial.snappy\snappy-java\srcs\snappy-java-1.1.2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.jpountz.lz4" name="lz4">
+			<revision name="1.3.0" status="release" pubdate="20141126214014" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jpountz/lz4-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2771" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\net.jpountz.lz4\lz4\ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.pom"/>
+				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="lz4" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="50577" time="474" location="C:\Users\ADELPOZO\.ivy2\cache\net.jpountz.lz4\lz4\srcs\lz4-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -120,7 +168,7 @@
 			</revision>
 		</module>
 		<module organisation="io.aeron" name="aeron-driver">
-			<revision name="1.3.0" status="release" pubdate="20170514063938" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/real-logic/Aeron" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+			<revision name="1.3.0" status="release" pubdate="20170514063938" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/real-logic/Aeron" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
 				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3103" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\io.aeron\aeron-driver\ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.3.0/aeron-driver-1.3.0.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.1-SNAPSHOT"/>
@@ -132,7 +180,7 @@
 			</revision>
 		</module>
 		<module organisation="io.aeron" name="aeron-client">
-			<revision name="1.3.0" status="release" pubdate="20170514063926" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/real-logic/Aeron" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+			<revision name="1.3.0" status="release" pubdate="20170514063926" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/real-logic/Aeron" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
 				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3099" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\io.aeron\aeron-client\ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/aeron/aeron-client/1.3.0/aeron-client-1.3.0.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.1-SNAPSHOT"/>
@@ -144,7 +192,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty">
-			<revision name="3.10.6.Final" status="release" pubdate="20160629144528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+			<revision name="3.10.6.Final" status="release" pubdate="20160629144528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="7263" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\io.netty\netty\ivy-3.10.6.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="3.10.6.Final" rev-constraint-default="3.10.6.Final" rev-constraint-dynamic="3.10.6.Final" callerrev="0.1-SNAPSHOT"/>
@@ -156,7 +204,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-stream-testkit_2.12">
-			<revision name="2.5.6" status="release" pubdate="20170929164046" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="39">
+			<revision name="2.5.6" status="release" pubdate="20170929164046" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="43">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3524" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe.akka\akka-stream-testkit_2.12\ivy-2.5.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.12/2.5.6/akka-stream-testkit_2.12-2.5.6.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="2.5.6" rev-constraint-default="2.5.6" rev-constraint-dynamic="2.5.6" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6"/>
@@ -168,7 +216,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-stream_2.12">
-			<revision name="2.5.6" status="release" pubdate="20170929163832" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="10">
+			<revision name="2.5.6" status="release" pubdate="20170929163832" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="11">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3542" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe.akka\akka-stream_2.12\ivy-2.5.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.6/akka-stream_2.12-2.5.6.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="2.5.6" rev-constraint-default="2.5.6" rev-constraint-dynamic="2.5.6" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6"/>
@@ -180,7 +228,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe" name="ssl-config-core_2.12">
-			<revision name="0.2.2" status="release" pubdate="20170308153931" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+			<revision name="0.2.2" status="release" pubdate="20170308153931" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2891" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe\ssl-config-core_2.12\ivy-0.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="0.2.2" rev-constraint-default="0.2.2" rev-constraint-dynamic="0.2.2" callerrev="0.1-SNAPSHOT"/>
@@ -192,7 +240,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
-			<revision name="1.0.4" status="release" pubdate="20161029011045" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="27">
+			<revision name="1.0.4" status="release" pubdate="20161029011045" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="30">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="2819" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.1-SNAPSHOT"/>
@@ -204,7 +252,7 @@
 			</revision>
 		</module>
 		<module organisation="org.reactivestreams" name="reactive-streams">
-			<revision name="1.0.1" status="release" pubdate="20170809122439" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+			<revision name="1.0.1" status="release" pubdate="20170809122439" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
 				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
 				<metadata-artifact status="no" details="" size="2553" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.reactivestreams\reactive-streams\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.1/reactive-streams-1.0.1.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.1-SNAPSHOT"/>
@@ -228,7 +276,7 @@
 			</revision>
 		</module>
 		<module organisation="org.agrona" name="agrona">
-			<revision name="0.9.6" status="release" pubdate="20170514061532" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/real-logic/Agrona" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+			<revision name="0.9.6" status="release" pubdate="20170514061532" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/real-logic/Agrona" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
 				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2928" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.agrona\agrona\ivy-0.9.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/agrona/agrona/0.9.6/agrona-0.9.6.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="0.9.6" rev-constraint-default="0.9.6" rev-constraint-dynamic="0.9.6" callerrev="0.1-SNAPSHOT"/>
@@ -240,7 +288,7 @@
 			</revision>
 		</module>
 		<module organisation="com.github.jnr" name="jnr-constants">
-			<revision name="0.9.9" status="release" pubdate="20170324162944" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jnr/jnr-constants" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+			<revision name="0.9.9" status="release" pubdate="20170324162944" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jnr/jnr-constants" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3476" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.github.jnr\jnr-constants\ivy-0.9.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.9/jnr-constants-0.9.9.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="0.9.9" rev-constraint-default="0.9.9" rev-constraint-dynamic="0.9.9" callerrev="0.1-SNAPSHOT"/>
@@ -252,7 +300,7 @@
 			</revision>
 		</module>
 		<module organisation="com.github.jnr" name="jnr-ffi">
-			<revision name="2.1.6" status="release" pubdate="20170530211916" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jnr/jnr-ffi" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+			<revision name="2.1.6" status="release" pubdate="20170530211916" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jnr/jnr-ffi" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4965" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.github.jnr\jnr-ffi\ivy-2.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.1.6/jnr-ffi-2.1.6.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="2.1.6" rev-constraint-default="2.1.6" rev-constraint-dynamic="2.1.6" callerrev="0.1-SNAPSHOT"/>
@@ -264,7 +312,7 @@
 			</revision>
 		</module>
 		<module organisation="com.github.jnr" name="jnr-x86asm">
-			<revision name="1.0.2" status="release" pubdate="20120407045021" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jnr/jnr-x86asm" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+			<revision name="1.0.2" status="release" pubdate="20120407045021" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jnr/jnr-x86asm" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="3230" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.github.jnr\jnr-x86asm\ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1-SNAPSHOT"/>
@@ -276,7 +324,7 @@
 			</revision>
 		</module>
 		<module organisation="org.ow2.asm" name="asm-util">
-			<revision name="5.0.3" status="release" pubdate="20140524103053" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+			<revision name="5.0.3" status="release" pubdate="20140524103053" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
 				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
 				<metadata-artifact status="no" details="" size="4176" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.ow2.asm\asm-util\ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1-SNAPSHOT"/>
@@ -288,7 +336,7 @@
 			</revision>
 		</module>
 		<module organisation="org.ow2.asm" name="asm-analysis">
-			<revision name="5.0.3" status="release" pubdate="20140524103023" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+			<revision name="5.0.3" status="release" pubdate="20140524103023" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
 				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
 				<metadata-artifact status="no" details="" size="4184" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.ow2.asm\asm-analysis\ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1-SNAPSHOT"/>
@@ -300,7 +348,7 @@
 			</revision>
 		</module>
 		<module organisation="org.ow2.asm" name="asm-commons">
-			<revision name="5.0.3" status="release" pubdate="20140524103033" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+			<revision name="5.0.3" status="release" pubdate="20140524103033" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
 				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
 				<metadata-artifact status="no" details="" size="4182" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.ow2.asm\asm-commons\ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1-SNAPSHOT"/>
@@ -312,7 +360,7 @@
 			</revision>
 		</module>
 		<module organisation="org.ow2.asm" name="asm-tree">
-			<revision name="5.0.3" status="release" pubdate="20140524103043" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+			<revision name="5.0.3" status="release" pubdate="20140524103043" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
 				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
 				<metadata-artifact status="no" details="" size="4171" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.ow2.asm\asm-tree\ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1-SNAPSHOT"/>
@@ -324,7 +372,7 @@
 			</revision>
 		</module>
 		<module organisation="org.ow2.asm" name="asm">
-			<revision name="5.0.3" status="release" pubdate="20140524103012" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+			<revision name="5.0.3" status="release" pubdate="20140524103012" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
 				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
 				<metadata-artifact status="no" details="" size="3992" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.ow2.asm\asm\ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1-SNAPSHOT"/>
@@ -372,7 +420,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-protobuf_2.12">
-			<revision name="2.5.6" status="release" pubdate="20170929163802" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+			<revision name="2.5.6" status="release" pubdate="20170929163802" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2842" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe.akka\akka-protobuf_2.12\ivy-2.5.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.6/akka-protobuf_2.12-2.5.6.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="2.5.6" rev-constraint-default="2.5.6" rev-constraint-dynamic="2.5.6" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6"/>
@@ -396,7 +444,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.camel" name="camel-core">
-			<revision name="2.17.7" status="release" pubdate="20170514085859" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+			<revision name="2.17.7" status="release" pubdate="20170514085859" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="123887" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.apache.camel\camel-core\ivy-2.17.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/camel/camel-core/2.17.7/camel-core-2.17.7.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="2.17.7" rev-constraint-default="2.17.7" rev-constraint-dynamic="2.17.7" callerrev="0.1-SNAPSHOT"/>
@@ -408,7 +456,7 @@
 			</revision>
 		</module>
 		<module organisation="com.sun.xml.bind" name="jaxb-impl">
-			<revision name="2.2.11" status="release" pubdate="20141010131157" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+			<revision name="2.2.11" status="release" pubdate="20141010131157" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
 				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
 				<metadata-artifact status="no" details="" size="12272" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.sun.xml.bind\jaxb-impl\ivy-2.2.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="2.2.11" rev-constraint-default="2.2.11" rev-constraint-dynamic="2.2.11" callerrev="0.1-SNAPSHOT"/>
@@ -420,7 +468,7 @@
 			</revision>
 		</module>
 		<module organisation="com.sun.xml.bind" name="jaxb-core">
-			<revision name="2.2.11" status="release" pubdate="20141010130950" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+			<revision name="2.2.11" status="release" pubdate="20141010130950" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
 				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
 				<metadata-artifact status="no" details="" size="12417" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.sun.xml.bind\jaxb-core\ivy-2.2.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="2.2.11" rev-constraint-default="2.2.11" rev-constraint-dynamic="2.2.11" callerrev="0.1-SNAPSHOT"/>
@@ -432,7 +480,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-slf4j_2.12">
-			<revision name="2.5.6" status="release" pubdate="20170929163954" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+			<revision name="2.5.6" status="release" pubdate="20170929163954" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3381" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.12\ivy-2.5.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.6/akka-slf4j_2.12-2.5.6.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="2.5.6" rev-constraint-default="2.5.6" rev-constraint-dynamic="2.5.6" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6"/>
@@ -444,7 +492,7 @@
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="slf4j-api">
-			<revision name="1.7.25" status="release" pubdate="20170316173632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+			<revision name="1.7.25" status="release" pubdate="20170316173632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
 				<metadata-artifact status="no" details="" size="5340" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
@@ -455,7 +503,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-testkit_2.12">
-			<revision name="2.5.6" status="release" pubdate="20170929163925" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="40">
+			<revision name="2.5.6" status="release" pubdate="20170929163925" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="44">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3730" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe.akka\akka-testkit_2.12\ivy-2.5.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.6/akka-testkit_2.12-2.5.6.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="2.5.6" rev-constraint-default="2.5.6" rev-constraint-dynamic="2.5.6" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6"/>
@@ -467,7 +515,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-actor_2.12">
-			<revision name="2.5.6" status="release" pubdate="20170929163709" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="34">
+			<revision name="2.5.6" status="release" pubdate="20170929163709" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="38">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3136" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\ivy-2.5.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.6/akka-actor_2.12-2.5.6.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="2.5.6" rev-constraint-default="2.5.6" rev-constraint-dynamic="2.5.6" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6"/>
@@ -479,7 +527,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
-			<revision name="0.8.0" status="release" pubdate="20161030001227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+			<revision name="0.8.0" status="release" pubdate="20161030001227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="3072" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.12\ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1-SNAPSHOT"/>
@@ -491,7 +539,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe" name="config">
-			<revision name="1.3.1" status="release" pubdate="20160924145320" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+			<revision name="1.3.1" status="release" pubdate="20160924145320" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2910" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\com.typesafe\config\ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.1-SNAPSHOT"/>
@@ -503,7 +551,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.12.3" status="release" pubdate="20170725124730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.3/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="14">
+			<revision name="2.12.3" status="release" pubdate="20170725124730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.3/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="16">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="2501" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.pom"/>
 				<caller organisation="default" name="pocakkastream$sources" conf="test, compile, runtime" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.3/"/>
