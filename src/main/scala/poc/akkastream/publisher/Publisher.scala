@@ -10,7 +10,7 @@ object Publisher{
 
 protected class Publisher extends PublisherBase {
 
-  def basicPublish(host: String, port: Int, messageToSend: String, exchangeName: String,
+  def basicPublish(host: String, port: Int, messageToSend: String) (exchangeName: String,
                    queueStr: String, routingKey: String, numMaxToSend: Int) = {
 
     def config = {

@@ -1,6 +1,6 @@
 # Akka Streams with AyncMessage from Kafka and Rabbitmq
 
-### Up Rabbit instance to Docker
+### Up Rabbit instance from Docker
 
 * ```docker pull rabbitmq:latest```
 
@@ -12,3 +12,9 @@ to enable management console from `localhost:8080`
 
 - Create exchange with name __consumerExchange__ with type __direct__
 - Binding with exchange a new queue with name __cola1__
+
+### Up Kafka instance from Docker
+
+```docker pull spotify/kafka```
+
+```docker run -p 2181:2181 -p 9092:9092 spotify/kafka```
