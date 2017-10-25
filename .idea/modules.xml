@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pocakkastream.iml" filepath="$PROJECT_DIR$/.idea/modules/pocakkastream.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pocakkastream-build.iml" filepath="$PROJECT_DIR$/.idea/modules/pocakkastream-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akkastreamcamelbackpressure.iml" filepath="$PROJECT_DIR$/.idea/modules/akkastreamcamelbackpressure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akkastreamcamelbackpressure-build.iml" filepath="$PROJECT_DIR$/.idea/modules/akkastreamcamelbackpressure-build.iml" />
     </modules>
   </component>
 </project>

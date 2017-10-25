@@ -1,37 +1,37 @@
-[info] Updating {file:/D:/git/pocAkkaStream/project/}pocakkastream-build...
-[debug] :: resolving dependencies :: default#pocakkastream-build;0.1-SNAPSHOT
+[info] Updating {file:/D:/git/akkaStreamCamelBackPressure/project/}akkastreamcamelbackpressure-build...
+[debug] :: resolving dependencies :: default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->default(compile)]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.3
 [debug] 	found org.scala-lang#scala-library;2.12.3 in sbt-chain
 [debug] 	[2.12.3] org.scala-lang#scala-library;2.12.3
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->runtime]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->compile]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->master]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->default(compile)]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->runtime]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->compile]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->master]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;1.0.2 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;1.0.2
 [debug] 	found org.scala-sbt#sbt;1.0.2 in sbt-chain
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->runtime]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->compile]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->runtime]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-sbt#sbt;1.0.2->org.scala-lang#scala-library;2.12.3 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -3967,17 +3967,17 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;1.0.2->org.scala-lang#scala-library;2.12.3 [runtime->compile]
 [debug] == resolving dependencies org.scala-sbt#sbt;1.0.2->org.scala-sbt#main_2.12;1.0.2 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-sbt#sbt;1.0.2->org.scala-sbt#main_2.12;1.0.2 [runtime->compile]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->master]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->default(compile)]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
@@ -3986,10 +3986,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->runtime]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->compile]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->master]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->default(compile)]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->runtime]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->compile]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->master]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
@@ -3998,8 +3998,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->runtime]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->compile]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->runtime]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-sbt#sbt;1.0.2->org.scala-lang#scala-library;2.12.3 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -8140,22 +8140,22 @@
 [debug] == resolving dependencies org.scala-sbt#zinc-compile_2.12;1.0.1->org.scala-sbt#util-tracking_2.12;1.0.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-sbt#zinc-compile_2.12;1.0.1->org.scala-sbt#util-tracking_2.12;1.0.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-sbt#zinc-compile_2.12;1.0.1->org.scala-sbt#util-tracking_2.12;1.0.1 [runtime->compile]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->master]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->default(compile)]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
@@ -8168,10 +8168,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->runtime]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->compile]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->master]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->default(compile)]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->runtime]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->compile]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [provided->master]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
@@ -8184,8 +8184,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->runtime]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->compile]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->runtime]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-sbt#sbt;1.0.2->org.scala-lang#scala-library;2.12.3 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -12606,20 +12606,20 @@
 [debug] == resolving dependencies org.scala-sbt#zinc-compile_2.12;1.0.1->org.scala-sbt#util-tracking_2.12;1.0.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-sbt#zinc-compile_2.12;1.0.1->org.scala-sbt#util-tracking_2.12;1.0.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-sbt#zinc-compile_2.12;1.0.1->org.scala-sbt#util-tracking_2.12;1.0.1 [runtime->compile]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->master]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-sbt#sbt;1.0.2 [provided->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#pocakkastream-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->default]
+[debug] == resolving dependencies for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->runtime]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->compile]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->runtime]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.3->org.scala-lang#scala-library;2.12.3 [compile->master(*)]
@@ -12709,12 +12709,12 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.3 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.3 [runtime->compile]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->master]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->optional(default)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.3->jline#jline;2.14.4 [optional->master(*)]
@@ -12733,123 +12733,30 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.3->jline#jline;2.14.4 [optional->compile(*)]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->default]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->runtime]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->compile]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->master]
-[debug] == resolving dependencies default#pocakkastream-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->default]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->runtime]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->compile]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->master]
+[debug] == resolving dependencies default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->optional(default)]
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-sbt#util-relation_2.12;1.0.1!util-relation_2.12.jar
-[debug] 	[NOT REQUIRED] com.squareup.okio#okio;1.12.0!okio.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#util-cache_2.12;1.0.1!util-cache_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.3!scala-library.jar
-[debug] no default ivy user dir defined: set to C:\Users\ADELPOZO\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\ADELPOZO\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\ADELPOZO\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\ADELPOZO\.ivy2
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to C:\Users\ADELPOZO\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (40ms)
-[debug] 	default cache: C:\Users\ADELPOZO\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-compile-core_2.12;1.0.1!zinc-compile-core_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.5!scala-parser-combinators_2.12.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-core_2.12;1.0.1!zinc-core_2.12.jar
-[debug] no default cache defined: set to C:\Users\ADELPOZO\.ivy2\cache
-[debug] no default cache defined: set to C:\Users\ADELPOZO\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to C:\Users\ADELPOZO\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-persist_2.12;1.0.1!zinc-persist_2.12.jar
-[debug] 	[NOT REQUIRED] com.trueaccord.scalapb#scalapb-runtime_2.12;0.6.0!scalapb-runtime_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#sbinary_2.12;0.4.4!sbinary_2.12.jar
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] com.trueaccord.lenses#lenses_2.12;0.4.12!lenses_2.12.jar
-[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse_2.12;0.4.2!fastparse_2.12.jar
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.jar(bundle)
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse-utils_2.12;0.4.2!fastparse-utils_2.12.jar
-[debug] 	[NOT REQUIRED] com.lihaoyi#sourcecode_2.12;0.1.3!sourcecode_2.12.jar
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.scala-sbt#core-macros_2.12;1.0.2!core-macros_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#protocol_2.12;1.0.2!protocol_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] settings loaded (71ms)
-[debug] 	default cache: C:\Users\ADELPOZO\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd!ivy.jar
-[debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-murmurhash_2.12;0.8.0!sjson-new-murmurhash_2.12.jar
-[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp-urlconnection;3.7.0!okhttp-urlconnection.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;1.0.2!test-agent.jar
-[debug] 	[NOT REQUIRED] com.eed3si9n#gigahorse-core_2.12;0.3.0!gigahorse-core_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
-[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.7.0!okhttp.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-classfile_2.12;1.0.1!zinc-classfile_2.12.jar
-[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(bundle)
-[debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar
-[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar
-[debug] 	[NOT REQUIRED] com.eed3si9n#gigahorse-okhttp_2.12;0.3.0!gigahorse-okhttp_2.12.jar
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-relation_2.12;1.0.1!util-relation_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#launcher-interface;1.0.0!launcher-interface.jar
-[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.8.1!log4j-api.jar
-[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#util-tracking_2.12;1.0.1!util-tracking_2.12.jar
-[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar(test-jar)
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-classpath_2.12;1.0.1!zinc-classpath_2.12.jar
-[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-slf4j-impl;2.8.1!log4j-slf4j-impl.jar
+[debug] no default ivy user dir defined: set to C:\Users\ADELPOZO\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\ADELPOZO\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\ADELPOZO\.ivy2
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\ADELPOZO\.ivy2\cache
+[debug] no default cache defined: set to C:\Users\ADELPOZO\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] org.scala-sbt#io_2.12;1.0.1!io_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#util-logging_2.12;1.0.1!util-logging_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#librarymanagement-core_2.12;1.0.2!librarymanagement-core_2.12.jar
 [debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] org.scala-sbt#librarymanagement-ivy_2.12;1.0.2!librarymanagement-ivy_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;1.0.1!compiler-interface.jar
 [debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-compile_2.12;1.0.1!zinc-compile_2.12.jar
-[debug] settings loaded (101ms)
-[debug] 	default cache: C:\Users\ADELPOZO\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.scala-sbt#sbt;1.0.2!sbt.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#main_2.12;1.0.2!main_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#logic_2.12;1.0.2!logic_2.12.jar
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] org.scala-sbt#actions_2.12;1.0.2!actions_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-apiinfo_2.12;1.0.1!zinc-apiinfo_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-ivy-integration_2.12;1.0.1!zinc-ivy-integration_2.12.jar
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc_2.12;1.0.1!zinc_2.12.jar
-[debug] 	[NOT REQUIRED] jline#jline;2.14.4!jline.jar
-[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (118ms)
+[debug] settings loaded (32ms)
 [debug] 	default cache: C:\Users\ADELPOZO\.ivy2\cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -12859,35 +12766,128 @@
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-scalajson_2.12;0.8.0!sjson-new-scalajson_2.12.jar
-[debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.10.4!jawn-parser_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#util-position_2.12;1.0.1!util-position_2.12.jar
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (51ms)
+[debug] 	default cache: C:\Users\ADELPOZO\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.8.1!log4j-api.jar
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar(test-jar)
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-slf4j-impl;2.8.1!log4j-slf4j-impl.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#io_2.12;1.0.1!io_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-logging_2.12;1.0.1!util-logging_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#librarymanagement-core_2.12;1.0.2!librarymanagement-core_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-cache_2.12;1.0.1!util-cache_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#librarymanagement-ivy_2.12;1.0.2!librarymanagement-ivy_2.12.jar
 [debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-core_2.12;0.8.0!sjson-new-core_2.12.jar
+[debug] no default ivy user dir defined: set to C:\Users\ADELPOZO\.ivy2
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;1.0.1!compiler-interface.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-compile_2.12;1.0.1!zinc-compile_2.12.jar
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\ADELPOZO\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.scala-sbt#main-settings_2.12;1.0.2!main-settings_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#run_2.12;1.0.2!run_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#command_2.12;1.0.2!command_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#collections_2.12;1.0.2!collections_2.12.jar
 [debug] 	[NOT REQUIRED] com.eed3si9n#shaded-scalajson_2.12;1.0.0-M4!shaded-scalajson_2.12.jar
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.10.4!jawn-parser_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#completion_2.12;1.0.2!completion_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#task-system_2.12;1.0.2!task-system_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#tasks_2.12;1.0.2!tasks_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#testing_2.12;1.0.2!testing_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#main-settings_2.12;1.0.2!main-settings_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#run_2.12;1.0.2!run_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#command_2.12;1.0.2!command_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#util-control_2.12;1.0.1!util-control_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#collections_2.12;1.0.2!collections_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] com.squareup.okio#okio;1.12.0!okio.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-tracking_2.12;1.0.1!util-tracking_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-classpath_2.12;1.0.1!zinc-classpath_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-apiinfo_2.12;1.0.1!zinc-apiinfo_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-ivy-integration_2.12;1.0.1!zinc-ivy-integration_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc_2.12;1.0.1!zinc_2.12.jar
+[debug] no default cache defined: set to C:\Users\ADELPOZO\.ivy2\cache
+[debug] 	[NOT REQUIRED] jline#jline;2.14.4!jline.jar
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-control_2.12;1.0.1!util-control_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#util-interface;1.0.1!util-interface.jar
 [debug] 	[NOT REQUIRED] com.lmax#disruptor;3.3.6!disruptor.jar
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.3!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.3!scala-compiler.jar
-[debug] :: resolution report :: resolve 4513ms :: artifacts dl 257ms
-[debug] 	report for default#pocakkastream-build;0.1-SNAPSHOT compile produced in D:\git\pocAkkaStream\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-pocakkastream-build-compile.xml
-[debug] 	report for default#pocakkastream-build;0.1-SNAPSHOT runtime produced in D:\git\pocAkkaStream\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-pocakkastream-build-runtime.xml
-[debug] 	report for default#pocakkastream-build;0.1-SNAPSHOT test produced in D:\git\pocAkkaStream\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-pocakkastream-build-test.xml
-[debug] 	report for default#pocakkastream-build;0.1-SNAPSHOT provided produced in D:\git\pocAkkaStream\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-pocakkastream-build-provided.xml
-[debug] 	report for default#pocakkastream-build;0.1-SNAPSHOT optional produced in D:\git\pocAkkaStream\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-pocakkastream-build-optional.xml
-[debug] 	report for default#pocakkastream-build;0.1-SNAPSHOT compile-internal produced in D:\git\pocAkkaStream\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-pocakkastream-build-compile-internal.xml
-[debug] 	report for default#pocakkastream-build;0.1-SNAPSHOT runtime-internal produced in D:\git\pocAkkaStream\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-pocakkastream-build-runtime-internal.xml
-[debug] 	report for default#pocakkastream-build;0.1-SNAPSHOT test-internal produced in D:\git\pocAkkaStream\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-pocakkastream-build-test-internal.xml
-[debug] 	report for default#pocakkastream-build;0.1-SNAPSHOT plugin produced in D:\git\pocAkkaStream\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-pocakkastream-build-plugin.xml
-[debug] 	report for default#pocakkastream-build;0.1-SNAPSHOT pom produced in D:\git\pocAkkaStream\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-pocakkastream-build-pom.xml
-[debug] 	report for default#pocakkastream-build;0.1-SNAPSHOT scala-tool produced in D:\git\pocAkkaStream\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-pocakkastream-build-scala-tool.xml
-[debug] 	resolve done (4513ms resolve - 257ms download)
+[debug] 	[NOT REQUIRED] org.scala-sbt#main_2.12;1.0.2!main_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#logic_2.12;1.0.2!logic_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#actions_2.12;1.0.2!actions_2.12.jar
+[debug] 	[NOT REQUIRED] com.trueaccord.lenses#lenses_2.12;0.4.12!lenses_2.12.jar
+[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse_2.12;0.4.2!fastparse_2.12.jar
+[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.jar(bundle)
+[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse-utils_2.12;0.4.2!fastparse-utils_2.12.jar
+[debug] 	[NOT REQUIRED] com.lihaoyi#sourcecode_2.12;0.1.3!sourcecode_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#core-macros_2.12;1.0.2!core-macros_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#protocol_2.12;1.0.2!protocol_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd!ivy.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-core_2.12;1.0.1!zinc-core_2.12.jar
+[debug] settings loaded (75ms)
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-persist_2.12;1.0.1!zinc-persist_2.12.jar
+[debug] 	default cache: C:\Users\ADELPOZO\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	[NOT REQUIRED] com.trueaccord.scalapb#scalapb-runtime_2.12;0.6.0!scalapb-runtime_2.12.jar
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.scala-sbt#sbinary_2.12;0.4.4!sbinary_2.12.jar
+[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp-urlconnection;3.7.0!okhttp-urlconnection.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#gigahorse-core_2.12;0.3.0!gigahorse-core_2.12.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-murmurhash_2.12;0.8.0!sjson-new-murmurhash_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-compile-core_2.12;1.0.1!zinc-compile-core_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;1.0.2!test-agent.jar
+[debug] including url: jar:file:/C:/Users/ADELPOZO/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.5!scala-parser-combinators_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.7.0!okhttp.jar
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(bundle)
+[debug] settings loaded (169ms)
+[debug] 	default cache: C:\Users\ADELPOZO\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.scala-sbt#sbt;1.0.2!sbt.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-classfile_2.12;1.0.1!zinc-classfile_2.12.jar
+[debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#gigahorse-okhttp_2.12;0.3.0!gigahorse-okhttp_2.12.jar
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)
+[debug] :: resolution report :: resolve 8017ms :: artifacts dl 1064ms
+[debug] 	report for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT compile produced in D:\git\akkaStreamCamelBackPressure\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-akkastreamcamelbackpressure-build-compile.xml
+[debug] 	report for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT runtime produced in D:\git\akkaStreamCamelBackPressure\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-akkastreamcamelbackpressure-build-runtime.xml
+[debug] 	report for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT test produced in D:\git\akkaStreamCamelBackPressure\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-akkastreamcamelbackpressure-build-test.xml
+[debug] 	report for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT provided produced in D:\git\akkaStreamCamelBackPressure\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-akkastreamcamelbackpressure-build-provided.xml
+[debug] 	report for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT optional produced in D:\git\akkaStreamCamelBackPressure\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-akkastreamcamelbackpressure-build-optional.xml
+[debug] 	report for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT compile-internal produced in D:\git\akkaStreamCamelBackPressure\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-akkastreamcamelbackpressure-build-compile-internal.xml
+[debug] 	report for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT runtime-internal produced in D:\git\akkaStreamCamelBackPressure\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-akkastreamcamelbackpressure-build-runtime-internal.xml
+[debug] 	report for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT test-internal produced in D:\git\akkaStreamCamelBackPressure\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-akkastreamcamelbackpressure-build-test-internal.xml
+[debug] 	report for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT plugin produced in D:\git\akkaStreamCamelBackPressure\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-akkastreamcamelbackpressure-build-plugin.xml
+[debug] 	report for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT pom produced in D:\git\akkaStreamCamelBackPressure\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-akkastreamcamelbackpressure-build-pom.xml
+[debug] 	report for default#akkastreamcamelbackpressure-build;0.1-SNAPSHOT scala-tool produced in D:\git\akkaStreamCamelBackPressure\project\target\scala-2.12\sbt-1.0\resolution-cache\reports\default-akkastreamcamelbackpressure-build-scala-tool.xml
+[debug] 	resolve done (8017ms resolve - 1064ms download)
 [info] Done updating.
