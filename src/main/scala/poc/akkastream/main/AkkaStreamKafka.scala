@@ -1,13 +1,16 @@
 package poc.akkastream.main
 
 import akka.actor.{ActorRef, Props}
+import akka.kafka.scaladsl.Consumer
+import akka.stream.actor.ActorPublisher
 import akka.stream.scaladsl.{Flow, GraphDSL, RunnableGraph, Sink, Source}
 import akka.stream.{ActorMaterializer, ClosedShape, OverflowStrategy}
-import poc.akkastream.camel.CamelSubscriber
+import org.reactivestreams.Publisher
 import poc.akkastream.kafka.KafkaConsumer
 import poc.akkastream.main.LaunchStream.system
 import poc.akkastream.protocol.{ACK, INITMESSAGE, ONCOMPLETE}
 import poc.akkastream.publisher.{PublisherBase, PublisherKafkaMain}
+import poc.akkastream.suscriber.{CamelSubscriber, Subscriber}
 
 object AkkaStreamKafka {
   def apply: AkkaStreamKafka = new AkkaStreamKafka()
@@ -22,14 +25,12 @@ class AkkaStreamKafka {
         import GraphDSL.Implicits._
         val in = source.buffer(buffer, OverflowStrategy.backpressure)
         val out = sink
-
-
         in ~> f1 ~> f2 ~> out
         ClosedShape
     })
 
 
-  def goStream = sourceForKafka via f1 via f2 to sinkForKafka(Props[CamelSubscriber]) run()
+  def goStream = sourceForKafka via f1 via f2 to sinkForKafka(Props[Subscriber]) run()
 
   def f1 = Flow[String].map(_.toString)
 
