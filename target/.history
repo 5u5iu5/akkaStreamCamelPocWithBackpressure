@@ -1,0 +1,9 @@
+console
+def algo(s: String, ss: String)(a: Int)(b: Double)
+def algo(s: String, ss: String)(a: Int)(b: Double) : Unit
+def algo(s: String, ss: String)(a: Int)(b: Double) : Unit = {}
+class algo(s: String, ss: String)(a: Int)(b: Double) : Unit = {}
+class Pepe { def (s: String, ss: String)(a: Int)(b: Double)}
+val mierda: String
+exit
+console

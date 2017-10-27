@@ -15,39 +15,38 @@ object MainStream extends App {
   implicit val system = ActorSystem("some-system")
   implicit val materializer = ActorMaterializer()
 
-  val source = Source.actorRef(50000,OverflowStrategy.fail)
-  val sink = Sink.actorRefWithAck[String](system.actorOf(Props[CamelSubscriber]),INITMESSAGE,ACK,ONCOMPLETE, th => th.getMessage)
-  val sink2 = Sink.actorRefWithAck[String](system.actorOf(Props[CamelSubscriber]),INITMESSAGE,ACK,ONCOMPLETE, th => th.getMessage)
-
-  val flowFormat = Flow[String].map(s => s.toString)
-    //s.split(":").filterNot(_.exists(_.isDigit)).mkString(" ")
-
-  val flowIdentifier = Flow[String].filter(c => c.contains("pepe")).map(s => s.replace("pepe", "Sr. Pepe"))
-
   /** Publishing **/
   publishInRabbit
   publishInKafka
-  /** Publishing **/
+  /** End Publishing **/
 
-  val actorSource =  source /*via flowFormat via flowIdentifier*/ to sink run()
-  val actorSource2 =  source /*via flowFormat via flowIdentifier*/ to sink2 run()
+  val actorRabbitSource =  getSource /*via flowFormat via flowIdentifier*/ to getACKSink run()
+  val actorKafkaSource =  getSource /*via flowFormat via flowIdentifier*/ to getACKSink run()
 
-  val asyncMessageActor = system.actorOf(Props(new AsyncMessageConsumer(actorSource)))
-  val asyncMessageActor2 = system.actorOf(Props(new AsyncMessageConsumer(actorSource2)))
+  val asyncRabbitMessageActor = system.actorOf(Props(new AsyncMessageConsumer(actorRabbitSource)))
+  val asyncKafkaMessageActor = system.actorOf(Props(new AsyncMessageConsumer(actorKafkaSource)))
 
-
-  val kafkaConsumer = system.actorOf(Props(new KafkaConsumer(actorRef = asyncMessageActor2)))
+  val kafkaConsumer = system.actorOf(Props(new KafkaConsumer(actorRef = asyncKafkaMessageActor)))
   kafkaConsumer.tell("",kafkaConsumer)
-  val camelConsumer = system.actorOf(Props(new CamelConsumer(actorRef = asyncMessageActor)))
+  val camelConsumer = system.actorOf(Props(new CamelConsumer(actorRef = asyncRabbitMessageActor)))
+
 
   private def publishInRabbit = {
     val publish: PublisherBase = Publisher.apply
-    publish.basicPublish("localhost", 8081, "hola:soy:pepe")("consumerExchange", "cola1", "camel", 5000)
+    publish.basicPublish("192.168.16.172", 8081, "hola soy un mensaje de rabbit")("consumerExchange", "cola1", "camel", 5000)
   }
 
   private def publishInKafka = {
     val kafka:KafkaProducer = new KafkaProducer
     kafka.produce
+  }
+
+  private def getSource() = {
+    Source.actorRef(50000, OverflowStrategy.fail)
+  }
+
+  private def getACKSink = {
+    Sink.actorRefWithAck[String](system.actorOf(Props[CamelSubscriber]), INITMESSAGE, ACK, ONCOMPLETE, th => th.getMessage)
   }
 }
 
