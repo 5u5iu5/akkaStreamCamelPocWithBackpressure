@@ -1,4 +1,4 @@
-# Akka Streams with AyncMessage from Kafka and Rabbitmq
+# Akka Streams handle backpressure from Kafka and Rabbitmq
 
 ### Up Rabbit instance from Docker
 
