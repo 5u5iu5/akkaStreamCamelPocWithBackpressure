@@ -1,4 +1,6 @@
-# Akka Streams with AyncMessage from Kafka and Rabbitmq
+# Akka Streams handle backpressure from Kafka and Rabbitmq
+
+The main scala class is src\main\scala\poc\akkastream\main\LaunchStream.scala
 
 ### Up Rabbit instance from Docker
 
