@@ -4,7 +4,7 @@
 		module="pocakkastream_2.12"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171026122115"
+		publication="20171031152137"
 	>
 		<description>
 		pocakkastream
@@ -32,6 +32,7 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.3" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.3" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.lightbend.cinnamon" name="sbt-cinnamon" rev="2.4.3" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
 		<dependency org="com.typesafe.akka" name="akka-actor_2.12" rev="2.5.6" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-testkit_2.12" rev="2.5.6" conf="test->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-http_2.12" rev="10.0.10" conf="compile->default(compile)"/>

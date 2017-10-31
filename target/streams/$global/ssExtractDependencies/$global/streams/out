@@ -1,4 +1,4 @@
-[error] sbt.librarymanagement.ResolveException: unresolved dependency: com.typesafe.scala-logging#scala-logging-slf4j_2.12;2.1.2: not found
+[error] sbt.librarymanagement.ResolveException: unresolved dependency: com.lightbend.cinnamon#sbt-cinnamon;2.4.3: not found
 [error] 	at sbt.internal.librarymanagement.IvyActions$.resolveAndRetrieve(IvyActions.scala:331)
 [error] 	at sbt.internal.librarymanagement.IvyActions$.$anonfun$updateEither$1(IvyActions.scala:205)
 [error] 	at sbt.internal.librarymanagement.IvySbt$Module.$anonfun$withModule$1(Ivy.scala:229)

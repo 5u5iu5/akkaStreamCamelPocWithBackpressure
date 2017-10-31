@@ -7,7 +7,7 @@
 		revision="0.1-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20171031113858"/>
+		date="20171031151947"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-stream-kafka_2.12">
 			<revision name="0.17" status="release" pubdate="20170823194140" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/akka/reactive-kafka" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">

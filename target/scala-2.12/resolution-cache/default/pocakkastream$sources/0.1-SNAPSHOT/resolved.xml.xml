@@ -4,7 +4,7 @@
 		module="pocakkastream$sources"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171031113858"
+		publication="20171031151947"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

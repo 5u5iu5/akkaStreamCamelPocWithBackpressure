@@ -7,7 +7,7 @@
 		revision="0.1-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20171026122115"/>
+		date="20171031152137"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-stream-kafka_2.12">
 			<revision name="0.17" status="release" pubdate="20170823194140" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/akka/reactive-kafka" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="39">
@@ -585,6 +585,13 @@
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5246851" time="0" location="C:\Users\ADELPOZO\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.3.jar">
 						<origin-location is-local="false" location="UNKNOWN"/>
 					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="sbt-cinnamon">
+			<revision name="2.4.3" error="not found" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="default" name="pocakkastream_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
