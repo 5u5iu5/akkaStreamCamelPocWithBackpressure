@@ -1,3 +1,10 @@
+addSbtPlugin("com.lightbend.cinnamon" % "sbt-cinnamon" % "2.4.3")
+
+credentials += Credentials(Path.userHome / ".lightbend" / "commercial.credentials")
+
+resolvers += Resolver.url("lightbend-commercial",
+  url("https://repo.lightbend.com/commercial-releases"))(Resolver.ivyStylePatterns)
+
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.5.6",
   "com.typesafe.akka" %% "akka-testkit" % "2.5.6" % Test,

@@ -26,9 +26,6 @@ class AkkaStreamCamel {
       val in = source.buffer(buffer, OverflowStrategy.backpressure)
       val out = sink
 
-      val f1 = Flow[String].map(_.toString)
-      val f2 = Flow[String].map(_ + " Flow2")
-
       in ~> f1 ~> f2 ~> f3 ~> out
       ClosedShape
     })
