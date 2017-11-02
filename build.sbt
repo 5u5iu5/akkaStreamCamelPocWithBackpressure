@@ -1,9 +1,16 @@
-addSbtPlugin("com.lightbend.cinnamon" % "sbt-cinnamon" % "2.4.3")
 
-credentials += Credentials(Path.userHome / ".lightbend" / "commercial.credentials")
+lazy val akkastreamcamelpocwithbackpressure = project in file(".") enablePlugins (Cinnamon)
 
-resolvers += Resolver.url("lightbend-commercial",
-  url("https://repo.lightbend.com/commercial-releases"))(Resolver.ivyStylePatterns)
+// Add the Monitoring Agent for run and test
+cinnamon in run := true
+cinnamon in test := false
+
+// Set the Monitoring Agent log level
+cinnamonLogLevel := "INFO"
+
+version := "1.0"
+
+scalaVersion := "2.12.1"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.5.6",
@@ -18,3 +25,14 @@ libraryDependencies ++= Seq(
   "org.apache.camel" % "camel-rabbitmq" % "2.17.7",
   "com.typesafe.akka" %% "akka-stream-kafka" % "0.17",
 )
+
+// Cinnamon
+libraryDependencies += Cinnamon.library.cinnamonCHMetricsJvmMetrics
+libraryDependencies += Cinnamon.library.cinnamonCHMetricsStatsDReporter
+libraryDependencies += Cinnamon.library.cinnamonCHMetrics
+libraryDependencies += Cinnamon.library.cinnamonCHMetricsElasticsearchReporter
+libraryDependencies += Cinnamon.library.cinnamonOpenTracingZipkin
+libraryDependencies += Cinnamon.library.cinnamonOpenTracingZipkinKafka
+
+// Use Akka instrumentation
+libraryDependencies += Cinnamon.library.cinnamonAkka
