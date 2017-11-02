@@ -1,5 +1,6 @@
 # Created by https://www.gitignore.io/api/sbt,scala,eclipse
 
+.DS_Store
 ### SBT ###
 
 dist/*
@@ -81,6 +82,6 @@ fabric.properties
 # Sonarlint plugin
 .idea/sonarlint
 
-project/target/**/*
+project/target
 
 # End of https://www.gitignore.io/api/sbt,scala,eclipse,intellij
